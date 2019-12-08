@@ -1,8 +1,8 @@
-title: Blog
+title: Neymarsabin's blog
 description: My Personal Blog
-author: neymarsabin
+author: Sabin Nepal
 github: https://github.com/neymarsabin
-about: I'm Programmer.
+about: Developer by profession, knowledge is my passion.
 disqus_shortname: neymarsabin
 google_analytics: UA-XXXXXXXX-Y
 
@@ -33,10 +33,8 @@ urls:
       url: /about/
     - text: My Projects
       url: /projects/
-    - text: Cases
+    - text: Weekly Cases
       url: /cases/
-    - text: XML Feed
-      url: /feed.xml
 
 url: "https://neymarsabin.github.io"
 baseurl: ""
