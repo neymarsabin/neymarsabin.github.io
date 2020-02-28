@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<h3>Posts:</h3>
+<ul>
+  {% for post in site.posts %}
+   {% if post.type == "blog" %}
+    <li style="margin-bottom: 5px;">
+      <a href="{{post.url}}" style="color: greenyellow; margin-left: 30px; text-decoration: none;">
+        {{post.date}} - {{post.title}}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+<!-- <h3>Cases:</h3> -->
+<!-- <ul> -->
+<!--   {% for post in site.posts %} -->
+<!--   {% if post.type == "case" %} -->
+<!--     <li style="margin-bottom: 5px;"> -->
+<!--       <a href="{{post.url}}" style="color: greenyellow; margin-left: 30px; text-decoration: none;"> -->
+<!--         Case #{{post.case}} - {{post.date}} - {{post.title}} -->
+<!--       </a> -->
+<!--     </li> -->
+<!--   {% endif %} -->
+<!--   {% endfor %} -->
+<!-- </ul> -->
