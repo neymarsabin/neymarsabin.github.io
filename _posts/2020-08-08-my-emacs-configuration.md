@@ -149,3 +149,6 @@ EMACS file configurations resides in *~/.emacs.d* folder with an *~/.emacs.d/ini
 
 	;; org-agenda-mode
 	(global-set-key (kbd "C-c a") 'org-agenda-list)
+
+
+latest configs: [dotfiles](https://github.com/neymarsabin/dotfiles_reloaded/blob/trail/dots/emacs/init.el)
