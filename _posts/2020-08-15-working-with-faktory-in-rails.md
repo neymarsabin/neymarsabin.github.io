@@ -60,9 +60,9 @@ Now, let's push some jobs to Faktory Server. The job I am going to write will ta
 		    queue: 'default',
 		    job_type: 'csv_to_json'
 		  }
+		  faktory_client.push(job)
 	    end
-	    faktory_client.push(job)
-	  end	
+	  end
 	end
 
 I have place around 14 CSV files in the folder each containing around 30k of rows. I will describe how the data looks like and how Go worker will read through the csv files and push rows into JSON file later. Let's first test whether jobs will be pushed into faktory or not. Run the method from the rails console: 
