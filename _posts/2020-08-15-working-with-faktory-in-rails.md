@@ -14,7 +14,6 @@ Sidekiq is pretty well known to most Rails developers. It is an awesome library 
 
 (part 2)
 - Write faktory client in Golang to fetch the jobs pushed by Ruby client and execute them
-- The Benefits
 
 ### Faktory Server Installation
 Everyone use docker nowadays, let's use official image from faktory and run a faktory container. You can find more options on this installation page: [faktory installation guide](https://github.com/contribsys/faktory/wiki/Installation)

@@ -117,3 +117,14 @@ Now, let's write the function that will take in the path of csv file as an argum
 	}
 	
 	
+Let's build and run the program. From the root directory:
+
+	go build
+	./csvtojson
+	
+	
+Now, this program can pull in jobs in the faktory server, process them. The best thing about this is we can build programs which can be fast, utilize concurrency. This binary is going to run as a single process which will consume faktory jobs. 
+
+- Faktory is a standalone binary and needs a worker process to consume jobs(like the one we wrote above)
+- Faktory uses RocksDB for embedded datastore internally to persist all job data, queues, errors etc whereas sidekiq uses redis, which is dumb. Sidekiq is written in ruby, to access data there is network call involved. 
+- Sidekiq is limited to only one language, that's ruby, you can't execute jobs with golang, python or javascript. 
