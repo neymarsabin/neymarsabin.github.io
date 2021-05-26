@@ -11,11 +11,16 @@ tags:
 These templates are already merged in [#pr-260](https://github.com/AndreaCrotti/yasnippet-snippets/pull/260)
 
 # Using Org Templates
-	Using orgTemplates is very simple.Just clone this repository.Then copy all files inside orgTemplates to your emacs configuration folder excluding hidden files.
-``bash
-  cd orgTemplates
-  rsync -av --exclude=".*" . ~/.emacs.d/snippets/org-mode/
+Using orgTemplates is very simple.Just clone this repository.Then copy all files inside orgTemplates to your emacs configuration folder excluding hidden files.
+
 ``
+cd orgTemplatse
+``
+
+``
+rsync -av --exclude=".*" . ~/.emacs.d/snippets/org-mode/
+``
+
 Then, tell emacs to reload all the snippets.For that do *M-x yas-reload-all* 
 
 # Depends On
