@@ -6,7 +6,7 @@ layout: default
    {% if post.type == "blog" %}
     <li style="margin-bottom: 5px;">
       <a href="{{post.url}}" style="color: greenyellow; margin-left: 30px; text-decoration: none;">
-        {{post.date}} - {{post.title}}
+        {{post.date | date_to_string }} - {{post.title}}
       </a>
     </li>
     {% endif %}

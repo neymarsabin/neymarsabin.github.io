@@ -4,7 +4,7 @@ title: fail2ban with nginx
 type: blog
 author: neymarsabin
 tags:
-- rails
+- nginx
 - fail2ban
 - denial of service
 ---
