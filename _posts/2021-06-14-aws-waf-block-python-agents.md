@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AWS-WAF Example
+title: AWS-WAF Block Python Agents
 type: blog
 author: neymarsabin
 tags:
