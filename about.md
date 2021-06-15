@@ -13,11 +13,7 @@ layout: default
   - PostgresSQL, MySQL
   - RSpec, Cypress, Selenium
   - Arch Linux and Emacs
-
-- Skills I Am Learning
-  - Terraform, Ansible and Kubernetes
-  - Blockchain, Smart Contract Development
-
+  
 Find me on: [Github](https://github.com/neymarsabin), [Telegram][@neymarsabin]
 
 [<- back](./)
