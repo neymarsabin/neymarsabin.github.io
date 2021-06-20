@@ -8,12 +8,11 @@ layout: default
 - Programming Languages and Skills
   - Ruby, JavaScript, Golang
   - ReactJS, Ruby on Rails
-  - Git
-  - Docker, AWS, Linux, Kubernetes(Beginner)
+  - Git, AWS, Linux
   - PostgresSQL, MySQL
   - RSpec, Cypress, Selenium
-  - Arch Linux and Emacs
+  - Arch Linux and EMACS
   
-Find me on: [Github](https://github.com/neymarsabin), [Telegram][@neymarsabin]
+Telegram: [@neymarsabin](https://telegram.me/neymarsabin)
 
 [<- back](./)
