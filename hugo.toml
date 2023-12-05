@@ -6,7 +6,7 @@ theme = 'poison'
 paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
-disqusShortname = "neymarsabin"
+# disqusShortname = "neymarsabin"
 
 [params]
     brand = "Sabin Nepal"                      # name of your site - appears in the sidebar
