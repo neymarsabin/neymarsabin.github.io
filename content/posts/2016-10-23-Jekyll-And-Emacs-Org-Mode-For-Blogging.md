@@ -1,12 +1,8 @@
----
-layout: post
-title: Jekyll And Emacs Org-Mode For Blogging 
-type: blog
-author: neymarsabin
-tags: 
-- jekyll
-- org-mode
----
++++
+layout = 'post'
+title = 'Jekyll And Emacs Org-Mode For Blogging'
+date = 2016-10-23T12:00:00+05:45
++++
 
 From  [jekyll website](https://jekyllrb.com/docs/home) 
 

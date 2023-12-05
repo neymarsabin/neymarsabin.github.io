@@ -1,13 +1,8 @@
----
-layout: post
-type: blog
-author: neymarsabin
-title: Code Splitting and Dynamic Imports in React
-tags: 
-- react 
-- dynamic-imports
-- optimization
---- 
++++
+layout = 'post'
+title = 'Code Splitting and Dynamic Imports in React'
+date = 2021-08-14T12:01:00+05:45
++++
 
 We have realized at some point in developing react apps, as the app size grows the slower it gets because the bundled files are large and takes a lot of time to load/download by the browser. React recommends a special way to handle this with code splitting. This is essential to enhance the performance of your app if you are including large third party libraries. Code splitting is supported by bundlers like `webpack`, `rollup` etc that can create multiple bundle files that can be dynamically loaded at run time. This basically allows us to load just the things that are needed at the moment and this of course improves the performance of your app. We can do split in multiple ways like route based or component based. We can achieve this in React using `Dynamic Imports`. React has these functions `React.lazy` and `Suspense` which helps in dynamic import. 
 

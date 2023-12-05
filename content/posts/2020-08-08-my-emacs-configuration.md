@@ -1,12 +1,8 @@
----
-layout: post
-type: blog
-author: neymarsabin
-title: EMACS configuration
-tags: 
-- emacs
-- linux
----
++++
+layout = 'post'
+title = 'EMACS configuration'
+date = 2020-08-08T12:01:00+05:45
++++
 
 ### package management
 EMACS has its own package managers, which can read from sources like gnu, melpa repositories and install package for you. There are other package managers like use-package, cask, straight.el, but I like using cask. Cask let's you define package you want to install. It is best for running emacs in new setups at once. 

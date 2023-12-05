@@ -1,9 +1,9 @@
----
-layout: post
-type: blog
-author: neymarsabin
-title: Golang:> Running jobs from faktory:> Part 2
----
++++
+layout = 'post'
+type = 'blog'
+title = 'Golang:> Running jobs from faktory:> Part 2'
+date = 2020-08-30T12:00:00+05:45
++++
 
 In the last part, we pushed jobs in faktory server. Now we need to write a Job runner or worker to fetch jobs and run them. We will write it in Golang:
 

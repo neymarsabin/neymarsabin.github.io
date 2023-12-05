@@ -1,12 +1,8 @@
----
-layout: post
-title: Org Templates
-type: blog
-author: neymarsabin
-tags: 
-- org-mode
-- emacs
----
++++
+layout = 'post'
+title = 'Org Templates'
+date = 2021-05-26T12:00:00+05:45
++++
 
 These templates are already merged in [#pr-260](https://github.com/AndreaCrotti/yasnippet-snippets/pull/260)
 

@@ -1,12 +1,8 @@
----
-layout: post
-title: AWS-WAF Block Python Agents
-type: blog
-author: neymarsabin
-tags:
-- AWS
-- firewall
----
++++
+layout = 'post'
+title = 'AWS-WAF Block Python Agents'
+date = 2021-06-14T12:01:00+05:45
++++
 
 Create a new rule that will block requests with python/curl as user agents.
 ### JSON for Agent Check

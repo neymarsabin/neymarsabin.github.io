@@ -1,13 +1,9 @@
----
-layout: post
-type: blog
-author: neymarsabin
-title: Heroku and Rails 5 Getting Started
-tags: 
-- rails 
-- heroku
---- 
-
++++
+layout = 'post'
+type = 'blog'
+title = 'Heroku and Rails 5 Getting Started'
+date = 2016-11-06T12:00:01+05:45
++++
 
 If you are developing some kind of apps related to these platforms (Ruby,NodeJs,Go,scala,PHP,python,Java) then one of the 
 best place to deploy them is **Heroku**.

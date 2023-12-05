@@ -1,13 +1,8 @@
----
-layout: post
-title: fail2ban with nginx
-type: blog
-author: neymarsabin
-tags:
-- nginx
-- fail2ban
-- denial of service
----
++++
+layout = 'post'
+title = 'fail2ban with nginx'
+date = 2021-06-07T12:00:00+05:45
++++
 
 Fail2ban is a renowned tool to update firewall rules to reject IP addresses. This tool is packed with a daemon that runs in your machine and filters ips/request hosts according to the rules defined. Multiple example rules are already present after the tool is installed. Recently used this tool to filter python requests in app servers. All of the rules are customizable according to need and supports multiple log files to parse information about requests. Awesome for preventions against DOS attacks. This tool can be used to prevent DDOS attacks if the user agent or any other information is recurring and specific to the attacker. Going through logs is the best way to find attacker specific information.
 

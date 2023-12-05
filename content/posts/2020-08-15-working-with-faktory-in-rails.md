@@ -1,9 +1,8 @@
----
-layout: post
-type: blog
-author: neymarsabin
-title: Rails:> Pushing Jobs to faktory:> Part 1
----
++++
+layout = 'post'
+title = 'Rails:> Pushing Jobs to faktory:> Part 1'
+date = 2020-08-15T12:01:00+05:45
++++
 
 ### Faktory || Sidekiq
 Sidekiq is pretty well known to most Rails developers. It is an awesome library to execute asynchronous operations from Rails. When we need to perform some operations like sending email to thousands of customers, processing a large dataset we need asynchronous behaviour instead of doing everything in a single API call or in a main thread synchronously. Sidekiq is a mature library by Mike Perham, one of the best. There are Professional and Enterprise versions of sidekiq which you have to pay for. Likewise, Faktory is also a Job server which is written in Go language. The main advantage of Faktory over Sidekiq is we can write clients for faktory in any programming language. Sidekiq only workers written in Ruby. Faktory can easily run the jobs, distribute them among multiple servers. Clients can use Faktory API to fetch jobs from queue(jobs are pushed in Redis) and run them. Here's what we will cover:

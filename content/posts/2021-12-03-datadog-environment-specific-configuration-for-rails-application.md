@@ -1,13 +1,8 @@
----
-layout: post
-title: Datadog Environment Specific Configuration for Rails Applications
-type: blog
-author: neymarsabin
-tags: 
-- datadog
-- rails
-- environment
----
++++
+layout = 'post'
+title = 'Datadog Environment Specific Configuration for Rails Applications'
+date = 2021-12-03T12:01:00+05:45
++++
 
 ### Installing Datadog Agents
 Datadog Agents collect logs, metrics, traces from the Rails application and forward it. The servers need to have this agent installed to forward the logs. Generate an [API Key](https://app.datadoghq.com/account/settings#api) and run the following command being ubuntu user:

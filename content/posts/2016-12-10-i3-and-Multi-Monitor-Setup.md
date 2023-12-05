@@ -1,12 +1,9 @@
----
-layout: post
-type: blog
-author: neymarsabin
-title: Multi-Monitor and i3 window manager
-tags: 
-- i3
-- linux
----
++++
+layout = 'post'
+type = 'blog'
+title = 'Multi-Monitor and i3 window manager'
+date = 2016-12-10T12:00:00+05:45
++++
 
 **i3** is a tiling window manager.
 

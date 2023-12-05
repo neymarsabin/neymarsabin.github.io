@@ -1,11 +1,8 @@
----
-layout: post
-title: Things I Learned Supporting Customers
-type: blog
-tags: 
-- engineer
-- knowledge
----
++++
+layout = 'post'
+title = 'Things I Learned Supporting Customers'
+date = 2020-06-14T12:00:00+05:45
++++
 
 > I am a Software Engineer and the product I work with require Level 2 support and an Engineer is assigned for a month to solve those issues.
 

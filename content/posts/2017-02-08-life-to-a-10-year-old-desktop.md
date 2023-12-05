@@ -1,11 +1,8 @@
----
-layout: post
-type: blog
-author: neymarsabin
-title: Installing ubuntu in a 10 year old desktop 
-tags: 
-- linux
----
++++
+layout = 'post'
+title = 'Installing ubuntu in a 10 year old desktop'
+date = 2017-02-08T12:01:00+05:45
++++
 
 Specs
 

@@ -1,13 +1,9 @@
----
-layout: post
-title: Capistrano Rake Task for Sidekiq Process
-type: blog
-author: neymarsabin
-tags:
-- Capistrano
-- Deployment
-- Rails
----
++++
+layout = 'post'
+title = 'Capistrano Rake Task for Sidekiq Process'
+author = 'neymarsabin'
+date = 2021-06-19T12:00:00+05:45
++++
 
 Capistrano supports writing rake tasks(custom hooks) before/after deployments. These rake task can include commands that you want to perform before/after every deployment like clearing out cache, management(stop and restart) of sidekiq processes, building client side assets(capistrano can be used with pm2 for client side app deployments) etc. Sidekiq processes can be managed using linux systemd(systemctl) process monitor. So, before/after deployment we can write cusom hooks to restart sidekiq processes. 
 

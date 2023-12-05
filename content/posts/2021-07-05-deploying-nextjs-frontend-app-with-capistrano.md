@@ -1,13 +1,8 @@
----
-layout: post
-title: Deploying NextJS App with Capistrano and PM2 Server
-type: blog
-author: neymarsabin
-tags: 
-- nextjs
-- capistrano
-- pm2
----
++++
+layout = 'post'
+title = 'Deploying NextJS App with Capistrano and PM2 Server'
+date = 2021-07-05T12:01:00+05:45
++++
 
 Capistrano can be used to deploy a NextJS app into a linux server as well. We can take advantages of capistrano rake tasks to automate the whole process of building and restarting `pm2` server. Start with adding gemfile to the root of the project.
 ```ruby

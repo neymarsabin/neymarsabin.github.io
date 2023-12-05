@@ -1,13 +1,8 @@
----
-layout: post
-title: Connect to an Existing Blockchain Using Web3
-type: blog
-author: neymarsabin
-tags: 
-- blockchain
-- web3
-- smart contracts
----
++++
+layout = 'post'
+title = 'Connect to an Existing Blockchain Using Web3'
+date = 2021-07-22T12:01:00+05:45
++++
 
 Connecting to an existing blockchain using web3 can sometimes be confusing and difficult to figure out. This is a basic implementation that fetches amount of tokens that have been staked in a DEX. The decentralized exchange is ApeSwapFinance and the method we are going to call is `balanceOf` from this contract. [ApeSwap MasterApe.sol](https://github.com/ApeSwapFinance/apeswap-banana-farm/blob/master/contracts/MasterApe.sol).
 Let's start with basic html template. `index.html`

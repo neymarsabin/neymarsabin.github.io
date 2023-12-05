@@ -1,3 +1,10 @@
++++
+title = 'Capistrano Deployment with Github Actions for Continuous Deployment'
+date = 2022-01-15T12:01:00+05:45
+layout = 'post'
++++
+
+
 ## Capistrano Deployment with Rails
 [capistranorb](https://capistranorb.com/) is an awesome tool for automation and deploying applications across multiple servers. Rails applications can also be easily deployed using `capistrano`. This post assumes you already have capistrano deployment up and running for rails application. Rails supports multiple environments and capistrano can deploy to multiple environments too. To deploy to environments `staging` or `production` following capistrano commands can be used:
 
