@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'http://localhost:1313/portfolio'
 languageCode = 'en-us'
 title = 'neymarsabin'
 theme = 'poison'
