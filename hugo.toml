@@ -9,7 +9,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 # disqusShortname = "neymarsabin"
 
 [params]
-    brand = "./neymarsabin"                      # name of your site - appears in the sidebar
+    brand = "~/neymarsabin"                      # name of your site - appears in the sidebar
     remote_brand_image = 'https://github.com/neymarsabin.png' # path to a remote file
     # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
     # description = "Software Developer"     #Used as default meta description if not specified in front matter

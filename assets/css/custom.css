@@ -1,0 +1,18 @@
+.brand h1 {
+    color: darkgreen;
+    font-family: monospace;
+    font-size: 1.4rem;
+}
+
+.brand a:hover {
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: #121212;
+    text-align: center;
+}
+
+.lead {
+    display: none;
+}
