@@ -24,3 +24,7 @@
 .title a {
     color: green;
 }
+
+.footnote {
+    display: none;
+}
