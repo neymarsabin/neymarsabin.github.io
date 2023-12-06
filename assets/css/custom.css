@@ -13,9 +13,9 @@
     text-align: center;
 }
 
-.lead {
-    display: none;
-}
+/* .lead { */
+/*     display: none; */
+/* } */
 
 .content>.title {
     display: none;
@@ -27,4 +27,8 @@
 
 .footnote {
     display: none;
+}
+
+.post strong {
+    color: green;
 }
