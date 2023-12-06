@@ -12,12 +12,12 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     brand = "Sabin Nepal"                      # name of your site - appears in the sidebar
     remote_brand_image = 'https://github.com/neymarsabin.png' # path to a remote file
     # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
-    description = "Software Developer"     #Used as default meta description if not specified in front matter
+    # description = "Software Developer"     #Used as default meta description if not specified in front matter
     dark_mode = true # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
     summary = false
 
-    front_page_content = ["intro"] # Equivalent to the default value, add page bundle names to include them on the front page.
+    front_page_content = ["about"] # Equivalent to the default value, add page bundle names to include them on the front page.
     # MENU PLACEHOLDER
     # Menu dict keys:
         # Name:         The name to display on the menu.
