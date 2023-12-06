@@ -4,7 +4,7 @@
 
 Having delved into the exciting world of **blockchain**, I've woven intricate connections between frontend development and smart contracts. Crafting **ReactJS Web3** frontends and seamlessly integrating them with **blockchain nodes** is where I thrive.
 
-In the techscape, I'm not just a coder; I'm a navigator through **AWS**, proficient in its services and world of containerization with **ECS**and **EKS**. **Docker** and **Git** are my trusted companions, and the command line is where I feel most at home.
+In the techspace, I'm not just a coder; I'm a navigator through **AWS**, proficient in its services and world of containerization with **ECS**and **EKS**. **Docker** and **Git** are my trusted companions, and the command line is where I feel most at home.
 
 Feel free to browse through my **[rants](https://neymarsabin.github.io/posts "old rants")**
 <!--more-->
