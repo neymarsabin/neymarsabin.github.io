@@ -1,6 +1,6 @@
 +++
 layout = 'post'
-title = 'Datadog Environment Specific Configuration for Rails Applications'
+title = 'Datadog Environment Specific Configuration in Rails' 
 date = 2021-12-03T12:01:00+05:45
 +++
 

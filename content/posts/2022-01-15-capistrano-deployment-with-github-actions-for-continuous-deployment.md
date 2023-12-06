@@ -1,5 +1,5 @@
 +++
-title = 'Capistrano Deployment with Github Actions for Continuous Deployment'
+title = 'Capistrano Deployment with Github Actions' 
 date = 2022-01-15T12:01:00+05:45
 layout = 'post'
 +++

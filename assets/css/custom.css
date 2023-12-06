@@ -16,3 +16,11 @@
 .lead {
     display: none;
 }
+
+.content>.title {
+    display: none;
+}
+
+.title a {
+    color: green;
+}
