@@ -6,5 +6,8 @@ Having delved into the exciting world of **blockchain**, I've woven intricate co
 
 In the techspace, I'm not just a coder; I'm a navigator through **AWS**, proficient in its services and world of containerization with **ECS**and **EKS**. **Docker** and **Git** are my trusted companions, and the command line is where I feel most at home.
 
-Feel free to browse through my **[rants](https://neymarsabin.github.io/posts "old rants")**
+```
+In the realm of bits and bytes, where logic meets creativity, 
+code becomes the poetry that defines the future.
+```
 <!--more-->

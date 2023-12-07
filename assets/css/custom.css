@@ -32,3 +32,11 @@
 .post strong {
     color: green;
 }
+
+.sidebar-nav .heading a {
+    color: green;
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: monospace;
+    font-weight: normal;
+}
