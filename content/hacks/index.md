@@ -1,5 +1,0 @@
-+++
-title = 'Hacks'
-+++
-
-My Hacks
