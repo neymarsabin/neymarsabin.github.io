@@ -1,12 +1,12 @@
-### **assistant** 
-- NextJS, Ruby
-- enable a AI chat prompt in my portfolio website, to act like my assistant
+### **Assistant**
+- NextJS, Ruby, ChatGPT
+- enable a AI chat prompt
 - use ChatGPT's assistant API to fetch message responses and train data
-- uses trigger.dev as background jobs processor
-- and a ruby parser that parses the sitemaps and responds that to the client
+- uses ~trigger.dev~ as background jobs processor
+- and a ruby parser that parses the sitemaps and responds url and contents to a client
 - [https://github.com/neymarsabin/assistant](https://github.com/neymarsabin/assistant "assistant to the rescue")
 
-### **sack** 
+### **Sack**
 - Golang
 - in-memory key value store that supports redis-cli for connections.
 - basic implementation of redis, not to be used in production
