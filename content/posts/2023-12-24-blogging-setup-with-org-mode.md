@@ -1,0 +1,82 @@
++++
+title = "Blogging setup with org mode and Hugo"
+authors = ["neymarsabin"]
+description = "Configuring hugo with emacs org mode for a blogging setup"
+date = 2024-01-17T00:00:00+05:45
+draft = false
++++
+
+## Ox-Hugo? {#ox-hugo}
+
+With the start of this year, I decided to migrate my blogging framework to Hugo. I have always used `EMACS org-mode` for blogging. I am using the `doom configuration` for emacs. We will be using the package `ox-hugo` for this configuration. `ox-hugo` is responsible for exporting the org contents from a file to markdown(default file modes for hugo). Awesome package available here: [https://ox-hugo.scripter.co/doc/installation/](https://ox-hugo.scripter.co/doc/installation/)
+
+
+## How? {#how}
+
+Let's enable `ox-hugo` package. Open the `doom emacs` configuration folder, I use `<leader> f p`, this opens all of my private doom configuration. In the `init.el` file enable hugo in the org module like this:
+
+```elisp
+(org +hugo)
+```
+
+Also, you will have to set the `org-hugo-base-dir- variable in the ~config.el` file, this is the root of your hugo project.
+
+```elisp
+(setq org-hugo-base-dir "~/projects/mine/portfolio")
+```
+
+Reload your doom configuration with `C-c h r r` this runs the `doom sync` shell command.
+
+That is all you have to do. Move into your hugo repository and create a new file in the `orgs` folder. My `portfolio` folder looks like this:
+
+<a id="org-example-block--hugo folder structure"></a>
+```text
+| ../ |              |   |      |
+| ├── | archetypes   |   |      |
+| ├── | assets       |   |      |
+| ├── | content      |   |      |
+| ├── | data         |   |      |
+| ├── | hugo.toml    |   |      |
+| ├── | i18n         |   |      |
+| ├── | layouts      |   |      |
+| ├── | orgs         |   |      |
+| ├── | resources    |   |      |
+| ├── | static       |   |      |
+| └── | themes       |   |      |
+|     |              |   |      |
+| 10  | directories, | 1 | file |
+```
+
+Create a new blog post file inside the org mode file. Something like this: `2024-1-17-blogging-setup-with-hugo.org` Hugo needs some headers in the markdown file that is the output we get after `ox-hugo` export from the org mode. For, that let's add a snippet in org mode to auto-populate the snippet so that we won't have to write the whole headers everytime we start a new blog post. Create new snippet with this `C-c & C-n` and create the snippet.
+
+```text
+# -*- mode: snippet -*-
+# name: hugohead
+# uuid: hugohead
+# key: hugohead
+# condition: t
+# --
+
+#+TITLE: $1
+#+DESCRIPTION: $2
+#+AUTHOR: neymarsabin
+#+HUGO_FRONT_MATTER_KEY_REPLACE: author>authors
+#+DATE: $3
+#+DRAFT: false
+```
+
+After I finish writing the blog post, I do `C-c C-e` and this opens up the `org export menu`. Press `H h`. This will export the org file to markdown. If you have started the hugo server, you will see your blog post.
+
+
+## Pro config: {#pro-config}
+
+I will be adding some configs later to do the followings:
+
+-   add a new menu in the export menu that will export the markdown and ask user to input a commit message, push the code to the remote repository
+-   auto export org to md after file is saved, because right now we have to export everytime we save changes in the org file
+
+
+## Gotos: {#gotos}
+
+-   [X] Doom repository: [https://github.com/doomemacs](https://github.com/doomemacs)
+-   [X] My EMACS configuration: [https://github.com/neymarsabin/dotfiles_reloaded/tree/trail/dots/doom](https://github.com/neymarsabin/dotfiles_reloaded/tree/trail/dots/doom)
