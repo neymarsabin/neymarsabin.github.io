@@ -1,9 +1,22 @@
 +++
 +++
-👋 Hey! I am **Sabin Nepal**. I'm a Software Engineer navigating the intricate realms of coding with a love for simplicity and effectiveness. With a solid background in **Ruby on Rails**, **NodeJS** and **ReactJS**, I bring a dynamic skill set to the table. I also like to try languages like **Rust** and **Golang** when I feel exhausted from the world of interpreters.
-
-I am also into the exciting world of **blockchain**, I've woven intricate connections between frontend development and smart contracts. Crafting **ReactJS Web3** frontends and seamlessly integrating them with **blockchain nodes** is where I thrive.
-
-In the techspace, I'm not just a coder; I'm a navigator through **AWS**, proficient in its services and world of containerization with **ECS**and **EKS**. **Docker** and **Git** are my trusted companions, and the command line is where I feel most at home.
+- **NodeJS? Ruby on Rails? ReactJS? Golang?**
+  - Microservices/Monoliths
+    - NodeJS ~ let's go!!!
+    - Golang ~ sweet C
+    - Ruby/Rails  ~ :(
+  - ReactJS and Typescript - who doesn't?
+- **Web3 World**
+  - Connecting smart contracts with API/Frontend with Web3JS, EthersJS
+  - Spinning Blockchain Nodes, setting up load balancers for the slowest RPC servers
+  - I dumped entire Bitcoin/Ethereum blockchain data into PostgreSQL - Don't ask me why? Ask me how!
+- **Ops**
+  - EC* in AWS
+  - Terraform AWS with Terraform
+  - Docker, CI/CD +1
+- **Daily Drivers**
+  - EMACS + vim motion = best of both worlds
+  - using MacOS, missing Arch Linux
+  - @neymarsabin in Telegram
 
 <!--more-->
