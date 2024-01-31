@@ -1,3 +1,7 @@
+.container.content {
+    overflow-y: scroll;
+}
+
 .brand h1 {
     color: darkgreen;
     font-family: monospace;
