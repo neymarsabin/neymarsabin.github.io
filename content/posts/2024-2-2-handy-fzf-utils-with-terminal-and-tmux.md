@@ -1,5 +1,5 @@
 +++
-title = "fzf With terminal And tmux"
+title = "fzf + tmux! custom utils"
 authors = ["neymarsabin"]
 description = "fzf utils that I use daily..."
 date = 2024-02-02T00:00:00+05:45
@@ -17,7 +17,7 @@ draft = false
 # Use at your own risk: I have seen bugs that create infinite tmux sessions :D
 # define the fzf command: ./.fzfdir.sh pet
 # syntax: ./.fzfdir.sh <working_directory>
-# note: I have base_dir as ~/projects because I have all of my projects in ~/projects
+# note: I have base_dir as ~/projects
 # FZF_COMMAND="fzf-tmux"
 FZF_COMMAND="fzf-tmux -p --with-nth 1"
 

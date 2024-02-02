@@ -1,4 +1,4 @@
-#+TITLE: fzf With terminal And tmux
+#+TITLE: fzf + tmux! custom utils
 #+DESCRIPTION: fzf utils that I use daily...
 #+AUTHOR: neymarsabin
 #+HUGO_FRONT_MATTER_KEY_REPLACE: author>authors
