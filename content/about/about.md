@@ -24,6 +24,5 @@
   - Docker, CI/CD +1, Worked with self hosted Github Runners, BuildKite etc.
   - Monitoring apps with Prometheus/Graphana combos + paid awesome apps like Datadog
   - I did try hosting some of my apps in Heroku :D
-- **Find me**
-  - everywhere + @neymarsabin in Telegram
+- **@neymarsabin in Telegram**
 <!--more-->
