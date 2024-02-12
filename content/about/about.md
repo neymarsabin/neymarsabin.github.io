@@ -25,6 +25,6 @@
   - Monitoring apps with Prometheus/Graphana combos + paid awesome apps like Datadog
   - I did try hosting some of my apps in Heroku :D
 - **@neymarsabin in Telegram**
-- my github repository: [https://github.com/neymarsabin](https://github.com/neymarsabin)
-- read my rants here: [https://neymarsabin.dev/posts](https://neymarsabin.dev/posts)
+- github: [https://github.com/neymarsabin](https://github.com/neymarsabin)
+- rants: [https://neymarsabin.dev/posts](https://neymarsabin.dev/posts)
 <!--more-->
