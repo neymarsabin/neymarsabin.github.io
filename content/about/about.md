@@ -2,19 +2,18 @@
 +++
 - **NodeJS? Ruby on Rails? ReactJS? Golang?**
   - Microservices/Monoliths! 
-  - NodeJS ~ let's go!
-  - Golang ~ sweet C
+  - Golang 
   - Ruby/Rails ~ JSON APIs, Sidekiq!
     - started with building JSON APIs in Rails 
     - apps with a lot of jobs being processed in background with sidekiq! and Redis
-  - ReactJS and Typescript - who doesn't?
+  - ReactJS and Typescript
     - NestJS(CQRS, MVC), NextJS
 - **Web3 World**
   - Connecting smart contracts with API/Frontend with Web3JS, EthersJS
   - Spinning Blockchain Nodes, setting up load balancers for the slowest RPC servers
-  - I dumped entire Bitcoin/Ethereum blockchain data into PostgreSQL - Don't ask me why? Ask me how!
+  - I dumped entire Bitcoin/Ethereum blockchain data into PostgreSQL/MongoDB
 - **Databases**
-  - PostgreSQL, MySQL - Yes, I can write SQL Queries
+  - PostgreSQL, MySQL 
   - Redis
   - MongoDB
 - **Ops and Monitoring**
