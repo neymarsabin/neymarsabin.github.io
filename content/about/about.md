@@ -1,16 +1,16 @@
 +++
 +++
-- **NodeJS? Ruby on Rails? ReactJS? Golang?**
+- **JavaScript? Ruby? Golang?**
   - Microservices/Monoliths! 
-  - Golang 
-  - Ruby/Rails ~ JSON APIs, Sidekiq!
-    - started with building JSON APIs in Rails 
-    - apps with a lot of jobs being processed in background with sidekiq! and Redis
+  - Golang - Gin, Gorm, sqlx, Cobra CLI
   - ReactJS and Typescript
     - NestJS(CQRS, MVC), NextJS
+  - Ruby/Rails ~ JSON APIs, Sidekiq!
+    - JSON APIs in Rails 
+    - background job processing with sidekiq! and Redis
 - **Web3 World**
   - Connecting smart contracts with API/Frontend with Web3JS, EthersJS
-  - Spinning Blockchain Nodes, setting up load balancers for the slowest RPC servers
+  - Spinning Blockchain Nodes, attaching load balancers to multiple servers
   - I dumped entire Bitcoin/Ethereum blockchain data into PostgreSQL/MongoDB
 - **Databases**
   - PostgreSQL, MySQL 
@@ -22,7 +22,6 @@
   - Terraform AWS with Terraform and Terraform Cloud
   - Docker, CI/CD +1, Worked with self hosted Github Runners, BuildKite etc.
   - Monitoring apps with Prometheus/Graphana combos + paid awesome apps like Datadog
-  - I did try hosting some of my apps in Heroku :D
 - **@neymarsabin in Telegram**
 - github: [https://github.com/neymarsabin](https://github.com/neymarsabin)
 - rants: [https://neymarsabin.dev/posts](https://neymarsabin.dev/posts)
