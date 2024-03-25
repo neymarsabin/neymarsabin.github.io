@@ -25,4 +25,14 @@
 	<!-- google analytics headers -->
 	{{ template "_internal/google_analytics.html" . }}
 	{{ template "_internal/google_analytics_async.html" . }}
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5WN9S7TDL8"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-5WN9S7TDL8');
+	</script>
 </head>
