@@ -7,6 +7,7 @@ paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
 # disqusShortname = "neymarsabin"
+googleAanalytics = "G-5WN9S7TDL8"
 
 [params]
     brand = "~/neymarsabin"                      # name of your site - appears in the sidebar
@@ -104,3 +105,4 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 [taxonomies]
     series = 'series'
     tags = 'tags'
+
