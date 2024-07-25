@@ -39,7 +39,5 @@ draft = false
 - if you have bitlocker enabled, first allow bitlocker to decrypt the harddrive using your password
     - then remove the sys files
 
-## my questions!
-- no mass testing deployments? canary deployments?
-- did they rush the feature push to production?
-- centralized internet?
+## sources
+- referenced from various pages in the internet
