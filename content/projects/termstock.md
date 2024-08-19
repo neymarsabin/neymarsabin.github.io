@@ -5,31 +5,20 @@ date = 2024-08-19T12:00:00+05:45
 draft = false
 +++
 
-# TermStock Project
-- view stock prices/dashboard in the terminal
-#+begin_src elisp
-;; to move a line down first get current line
-;; transpose the line by +1, that will move the line to next row
-;; col variable has the current-column, and it is later transposed by 1
-(defun move-line-down ()
-  (interactive)
-  (let ((col (current-column)))
-    (save-excursion
-      (forward-line)
-      (transpose-lines 1))
-    (forward-line)
-    (move-to-column col)))
+<!--more-->
 
-;; follow same code but the column to transpose will be -1
-(defun move-line-up ()
-  (interactive)
-  (let ((col (current-column)))
-    (save-excursion
-      (forward-line)
-      (transpose-lines -1))
-    (forward-line -1)
-    (move-to-column col)))
+Check prices of Nepse symbols/stocks in the terminal. Quick and easy way to know how's your stock doing today.
 
-(global-set-key (kbd "C-S-j") 'move-line-down)
-(global-set-key (kbd "C-S-k") 'move-line-up)
-#+end_src
+#### how it works?
+The project uses merolagani(credit to them) to fetch latest data and display it. The symbols you add are stored in a SQLite database and everytime you refresh or restart the application symbols data gets updated.
+
+#### running the project
+Build and run the repo using golang. 
+    
+    go run main.go
+
+A menu is available with shortcut keys when pressed will present you the menu. For example to add a new symbol use the 'a' shortcut and enter your symbol. If the symbol is available data fetch works in the next update.
+
+#### Next Steps:
+- [ ] build a boxed dashboard to show the symbols and their performance.
+- [ ] build a chatbox system to interact in groups, people who share the env key will have access to the group and the groups will be anonymous
