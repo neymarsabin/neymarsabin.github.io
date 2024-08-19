@@ -5,6 +5,7 @@ date = 2024-08-18T12:00:00+05:45
 draft = false
 +++
 
+<!--more-->
 # Batterarch Project
 - view stock prices/dashboard in the terminal
 #+begin_src elisp

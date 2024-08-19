@@ -5,6 +5,8 @@ draft = false
 layout = 'posts'
 +++
 
+
+<!--more-->
 # Assistant Project
 - view stock prices/dashboard in the terminal
 #+begin_src elisp
