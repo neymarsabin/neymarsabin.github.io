@@ -1,11 +1,11 @@
-{{ define "main" -}}
-<h1 class="title">{{ .Title }}</h1>
-<ul class="entries">
+{{ define "main" }}
+<h1 class="title">personal projects that I haven't completed yet!!!</h1>
+<ul class="projects-list">
 	{{ range .Pages }}
-	<li>
-		<span class="title">
-			<a href="{{ .RelPermalink }}">{{ .Title }}</a> &nbsp; &nbsp;.................. <span> {{.Date}} </span>
-		</span>
+	<li class="project-summary">
+		<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+		{{ .Summary }} <!-- Show only the summary -->
+		<!-- <a href="{{ .Permalink }}">Read more</a> -->
 	</li>
 	{{ end }}
 </ul>
