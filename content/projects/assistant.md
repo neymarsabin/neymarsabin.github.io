@@ -1,11 +1,11 @@
 +++
+title = 'Assistant'
+date = 2024-08-19T20:48:46+05:45
+draft = true
 layout = 'posts'
-title = 'TermStock'
-date = 2024-08-19T12:00:00+05:45
-draft = false
 +++
 
-# TermStock Project
+# Assistant Project
 - view stock prices/dashboard in the terminal
 #+begin_src elisp
 ;; to move a line down first get current line
