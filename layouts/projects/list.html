@@ -4,8 +4,7 @@
 	{{ range .Pages }}
 	<li class="project-summary">
 		<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-		{{ .Summary }} <!-- Show only the summary -->
-		<!-- <a href="{{ .Permalink }}">Read more</a> -->
+		{{ .Summary }}
 	</li>
 	{{ end }}
 </ul>
