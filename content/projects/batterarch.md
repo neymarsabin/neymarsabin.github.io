@@ -3,6 +3,7 @@ layout = 'post'
 title = 'batterarch'
 date = 2024-08-18T12:00:00+05:45
 draft = false
+Summary = 'battery usage visualizer in arch linux'
 +++
 
 <!--more-->

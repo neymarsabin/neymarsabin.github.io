@@ -3,6 +3,7 @@ layout = 'posts'
 title = 'TermStock'
 date = 2024-08-19T12:00:00+05:45
 draft = false
+Summary = 'your stocks in the terminal'
 +++
 
 <!--more-->
