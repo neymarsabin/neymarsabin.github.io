@@ -52,6 +52,8 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          TZ: America/Los_Angeles
         run: |
           hugo \
             --gc \
@@ -59,7 +61,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
           path: ./public
