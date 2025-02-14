@@ -22,6 +22,7 @@
   - Recently got into AI and LLMs world, to be honest it is pretty fun :) 
   - Langchain/LangGraph/LangSmith -> Build multi-agents workflow 
   - Chatbots with OpenAI
+  - soon to be python guy
 - **@neymarsabin in Telegram**
 - github: [https://github.com/neymarsabin](https://github.com/neymarsabin)
 - rants: [https://neymarsabin.dev/posts](https://neymarsabin.dev/posts)
