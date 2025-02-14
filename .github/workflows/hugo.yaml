@@ -74,4 +74,5 @@ jobs:
       - name: Deploy to Github Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        artifact-name: hugo-artifacts
+        with:
+          artifact-name: hugo-artifacts
