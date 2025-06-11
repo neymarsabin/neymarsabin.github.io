@@ -2,9 +2,9 @@ baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'neymarsabin'
 theme = 'poison'
-
-paginate = 10
+pagerSize = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
+ignoreLogs = ['warning-goldmark-raw-html']
 
 # disqusShortname = "neymarsabin"
 googleAanalytics = "G-5WN9S7TDL8"
@@ -15,7 +15,7 @@ googleAanalytics = "G-5WN9S7TDL8"
     # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
     description = "Sic Parvis Magna"     #Used as default meta description if not specified in front matter
     dark_mode = true # optional - defaults to false
-    # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
+    favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
     summary = false
 
     front_page_content = ["about"] # Equivalent to the default value, add page bundle names to include them on the front page.
@@ -26,7 +26,8 @@ googleAanalytics = "G-5WN9S7TDL8"
         # HasChildren:  If the directory's files should be listed.  Default is true.
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
-         {Name = "./tldr", URL = "/posts/" }
+         {Name = "./tldr", URL = "/posts/" },
+         {Name = "./exps", URL = "/xps/" }
          # {Name = "./projects", URL = "/projects/" }
     ]
 

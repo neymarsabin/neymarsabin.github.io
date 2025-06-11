@@ -44,3 +44,7 @@
     font-family: monospace;
     font-weight: normal;
 }
+
+.reading-time {
+  display: none;
+}

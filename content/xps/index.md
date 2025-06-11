@@ -1,0 +1,31 @@
++++
++++
+**Collected XPs**
+- **AI Agents**
+    - langchain, langGraph, langSmith
+    - chatbots with LLM
+    - self-hosing LLMs
+    - multi-agents workflow with various LLMs
+    - RAG, Vector Databases, Embeddings, Knowledge Base with Pinecone, Weaviate, ChromaDB
+- **Frontend/Backend Development**
+    - JavaScript, TypeScript, ReactJS, NextJS
+    - NodeJS, ExpressJS, NestJS
+    - Ruby on Rails, Sinatra, Go, Gin, Gorm, sqlx, Cobra, bubble
+    - GraphQL, REST APIs
+    - microservices with RabbitMQ, async processors like Sidekiq, Celery with Redis
+    - SQL (PostgreSQL, MySQL, SQLite) and NoSQL (MongoDB, Redis) databases
+- **DevOps and Monitoring**
+    - AWS services like EC2, S3, Lambda, ECS, DynamoDB, RDS, CloudFront, CloudWatch etc.
+    - infrastructure as code with Terraform, CDK, Pulumi, Ansible
+    - Docker, container orchestration with ECS, app deployments with docker compose
+    - CI/CD pipelines with GitHub Actions, Buildkite, self-hosted runners
+    - monitoring and alerting with Prometheus, Grafana, Datadog
+    - self-hosting applications and services
+    - auto-scaling, load balancing with EC2 and ECS
+- **Web3 Integrations**
+    - connecting smart contracts with API/Frontend using Web3JS, EthersJS
+    - spinning up blockchain nodes
+    - blockchain data ingestion into databases like PostgreSQL, MongoDB for analysis and blockchain explorers
+    - authentication and authorization with Web3 wallets like MetaMask, WalletConnect
+    - payment integrations with cryptocurrencies and tokens
+    - web2 and web3 interoperability
