@@ -10,7 +10,7 @@
 - **Frontend/Backend Development**
     - JavaScript, TypeScript, ReactJS, NextJS
     - NodeJS, ExpressJS, NestJS
-    - Ruby on Rails, Sinatra, Go, Gin, Gorm, sqlx, Cobra, bubble
+    - Ruby, Rails, Sinatra, Go, Gin, Gorm, sqlx, Cobra, bubble
     - GraphQL, REST APIs
     - microservices with RabbitMQ, async processors like Sidekiq, Celery with Redis
     - SQL (PostgreSQL, MySQL, SQLite) and NoSQL (MongoDB, Redis) databases
