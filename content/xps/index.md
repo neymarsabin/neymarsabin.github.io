@@ -1,27 +1,30 @@
 +++
 +++
-**Collected XPs**
-- **AI Agents**
-    - langchain, langGraph, langSmith
-    - chatbots with LLM
-    - self-hosing LLMs
-    - multi-agents workflow with various LLMs
-    - RAG, Vector Databases, Embeddings, Knowledge Base with Pinecone, Weaviate, ChromaDB
+**Collected XPs** -> total years of experience: 6+ years or I have been coding since 2018
 - **Frontend/Backend Development**
     - JavaScript, TypeScript, ReactJS, NextJS
     - NodeJS, ExpressJS, NestJS
-    - Ruby, Rails, Sinatra, Go, Gin, Gorm, sqlx, Cobra, bubble
-    - GraphQL, REST APIs
+    - Ruby, Rails, Sinatra, Go, Gin, Cobra, Bubble, Python, FastAPI
+    - GraphQL, REST APIs, WebSockets, RPC
     - microservices with RabbitMQ, async processors like Sidekiq, Celery with Redis
     - SQL (PostgreSQL, MySQL, SQLite) and NoSQL (MongoDB, Redis) databases
 - **DevOps and Monitoring**
     - AWS services like EC2, S3, Lambda, ECS, DynamoDB, RDS, CloudFront, CloudWatch etc.
     - infrastructure as code with Terraform, CDK, Pulumi, Ansible
-    - Docker, container orchestration with ECS, app deployments with docker compose
+    - Docker, container orchestration with ECS, app deployments with docker compose, registry management
     - CI/CD pipelines with GitHub Actions, Buildkite, self-hosted runners
     - monitoring and alerting with Prometheus, Grafana, Datadog
     - self-hosting applications and services
     - auto-scaling, load balancing with EC2 and ECS
+    - Linux systems(mainly ubuntu based), shell scripting, cron jobs because I use Arch Linux 
+    - proxy server and virtual host setup with Nginx, Apache2 
+- **AI World**
+    - langchain, langGraph, langSmith, Pinecone, Weaviate
+    - chatbots with LLM agents
+    - self-hosting LLMs and open source LLMs like Llama, Mistral, Falcon etc.
+    - multi-agents workflow with various LLMs
+    - RAG, Vector Databases, Embeddings, Knowledge Base with Pinecone, Weaviate, ChromaDB
+    - VoiceAI with HumeAI, ElevenLabs, Whisper
 - **Web3 Integrations**
     - connecting smart contracts with API/Frontend using Web3JS, EthersJS
     - spinning up blockchain nodes
