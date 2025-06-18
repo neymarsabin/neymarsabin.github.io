@@ -2,7 +2,7 @@
 layout = 'post'
 title = 'CrowdStrike Microsoft Outage'
 date = 2024-07-25 01:52:31.730332380+05:45
-draft = false
+draft = true
 +++
 
 # crowdstrike-microsoft-outage-BSOD
