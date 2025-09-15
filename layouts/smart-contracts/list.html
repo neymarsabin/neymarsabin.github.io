@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <section class="journey">
+    <header class="journey-header">
+      <h1 class="journey-title">{{ .Title }}</h1>
+      <p class="journey-intro">{{ .Content }}</p>
+    </header>
+
+    <div class="journey-list">
+      {{ range .Pages.ByDate }}
+        <article class="journey-item">
+          <a class="journey-day" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <div class="journey-summary"> {{.Summary}} </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

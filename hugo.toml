@@ -27,9 +27,8 @@ googleAanalytics = "G-5WN9S7TDL8"
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
          {Name = "./tldr", URL = "/posts/" },
-         {Name = "./exps", URL = "/xps/" }
-         # {Name = "./projects", URL = "/projects/"}
-         # {Name = "./projects", URL = "/projects/" }
+         {Name = "./exps", URL = "/xps/" },
+         {Name = "./evm", URL = "/smart-contracts/", HasChildren = true }
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use.

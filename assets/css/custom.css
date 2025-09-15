@@ -48,3 +48,58 @@
 .reading-time {
   display: none;
 }
+
+/* smart contracts page */
+.journey {
+  max-width: 800px;
+  padding: 2rem 1rem;
+}
+
+.journey-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.journey-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.journey-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.journey-item:hover {
+  transform: translateY(-4px);
+}
+
+.journey-day {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: green;
+}
+
+.journey-day a {
+  text-decoration: none;
+  color: green;
+}
+
+.journey-summary {
+  color: #444;
+  padding-left: 2rem;
+}
+
+.journey-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 600;
+}
+
+.journey-link:hover {
+  text-decoration: underline;
+}
+
