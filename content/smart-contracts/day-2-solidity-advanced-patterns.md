@@ -44,3 +44,5 @@ contract StorageCheck {
 }
 ```
 When you compare the structs in the StorageCheck contract above, you can see that the `GoodStruct` is more gas efficient than `BadStruct` because it packs the variables better into storage slots. So, let's just understand for now that packing variables efficiently can save gas.
+
+> You can use assembly wherever you want to access storage directly, but be careful as it can lead to vulnerabilities if not done correctly. This is a good resource to understand storage layout in detail: https://docs.soliditylang.org/en/latest/internals/layout_in_storage.html
