@@ -4,7 +4,9 @@ date: 2025-09-19
 layout: 'post'
 ---
 
-Testing, Verification, Fuzzing and Invariant Testing
+Testing, Verification, Fuzzing
+
+<!--more-->
 
 ## Testing and Verification
 Let's talk about testing smart contracts. Testing is a crucial part of the development process, especially in the world of blockchain where smart contracts are immutable once deployed. A bug in a smart contract can lead to significant financial losses, think about a bug that drains all the funds from a contract. It's a major part of the development process to ensure that our contracts are secure and function as intended.
