@@ -82,3 +82,24 @@ print("Original shape:", tensor_a.shape)
 ## reshape to (4, 1)
 reshaped_tensor = tf.reshape(tensor_a, (4, 1))
 ```
+
+## Sense of Parallelism with Tensorflow
+Optimizing our code and utilizing tensorflow's built in capabilities is crucial. Avoid manual computations using loops. Instead leverage tensor operations that are optimized for parallel execution on GPUs and TPUs. For example batch matrix multiplication - common operation in deep learning.
+
+```python
+tensor_1 = tf.random.normal([10, 20, 30])
+tensor_2 = tf.random.normal([10, 30, 40])
+
+## if you want to list or check GPUs available
+gpus = tf.config.experimental.list_physical_devices('GPU')
+print("GPUs available: ", gpus)
+
+# Batch MATRIX multiplication
+# tensorflow will handle the parallelism internally with matrix multiplications
+# in parallel across the batch dimension
+result_batch_mul = tf.matmul(tensor_1, tensor_2)
+print("Result: ", result_batch_mul)
+print("Result shape:", result_batch_mul.shape)
+
+```
+There are various ways to do parallelism in tensorflow. We will explore more as we move forward.
