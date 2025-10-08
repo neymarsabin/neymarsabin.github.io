@@ -55,3 +55,24 @@ where:
 - \( b \) is the bias term.
 
 The node sums the product of the weights and the input values, add a number, a bias and then apply the activation function f to the weighted sum to produce the output y.
+
+### Why does a node compute data this way?
+A neural network is act as a function aggregator. Let's get back to basic mathematics. When learning linear algebra, we learn that a linear function is of the form:
+
+    \[ f(x) = mx + b \]
+
+where m is the slope and b is the y-intercept. 
+
+A multiple linear regression model that approximates any set of data points. You can predict any values of `f(x) = y` for any value of x where m and b parameters are learned from the data. But these only work for a linear relationship i.e. a straight line. Straight lines are not very useful in real life, because most of the problems we face daily are non-linear. That's why we use activation functions to introduce non-linearity in the model. Activation functions can also activate/deactivate the next neurons, to turn off some neurons we just set the output of activate function to zero. We will explore how this works with code in future posts.
+
+```python
+model = Sequential()
+model.add(Dense(784, activation=’relu’,input_shape=(784,)))
+model.add(Dense(784))
+model.add(activation.ReLU(threshold=0.0))
+```
+
+> Note, we can different activation functions in different layers.
+
+## Choosing Activation Functions
+To be continued...
