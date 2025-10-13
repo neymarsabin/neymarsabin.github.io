@@ -74,5 +74,10 @@ model.add(activation.ReLU(threshold=0.0))
 
 > Note, we can different activation functions in different layers.
 
-## Choosing Activation Functions
-To be continued...
+### Choosing between activation functions?
+Choosing the activatoin function for complex network is not an easy task. Sigmoid function was the most popular but this introduces vanishing gradient problem for deeper networks where the weights will stop changing after some iterations.
+- ReLU is the most popular activation function for hidden layers. But it also can cause dead nodes with some network configurations.
+- Leaky ReLU is a good alternative to ReLU to avoid dead nodes.
+- Most popular functions for most use cases are ReLU, Sigmoid, softmax and tanh.
+
+For most classification problems, try ReLU first, then tanh or softmax for hidden layers. For multiple categorical outputs, softmax is preferred in the output layer. Sigmoid function in a multi-label classification problem, but the outputs of the nodes will not sum to one. Instead, each output represents the probability of that outcome occuring. This is useful in cases where the outcomes are not mutually exclusive. For example, a patient could have multiple symptoms of the same underlying disease. For a binary classifier, if the output has two mutually exclusive classes, then a sigmoid functions is used.
