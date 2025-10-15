@@ -1,6 +1,6 @@
 ---
 title: "Tensor 5: Neuron Network Layers and Loss Functions"
-date: 2024-10-15
+date: 2025-10-15
 layout: 'post'
 ---
 
