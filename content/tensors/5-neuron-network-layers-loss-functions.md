@@ -100,4 +100,26 @@ bce_value = bce(y_true, y_pred).numpy()
 print("Binary Cross-Entropy:", bce_value)
 ```
 
-To be continued....
+#### Categorical Cross Entropy
+Used for multi-class outputs instead of a binary output. It is used when there are two or more label classes. Softmax is a suitable activation function to use with this loss function.
+
+```python
+cce = tf.keras.losses.CategoricalCrossentropy()
+y_true = [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+y_pred = [[0.9, 0.05, 0.05], [0.1, 0.8, 0.1], [0.2, 0.2, 0.6]]
+cce_value = cce(y_true, y_pred).numpy()
+print("Categorical Cross-Entropy:", cce_value)
+```
+
+### Network Optimizers
+Iteratively refining the model parameters to improve model accuracy and reduce error. The optimizer works on the background process and its main objective is to minimize the loss function by updating the weights of the network. The optimizer uses search algorithms to find the estimate the next set of weight values based on the loss function. `Gradient Descent` is the most common optimization algorithm.
+
+Okay, the book describes a good example. Suppose you are lost on a trek on a hill. One strategy to find bottom of the hill is to look around and find the steepest slope, then check direction again and repeat until we get stuck again. We need two parameters here: the number of steps before we check for direction and the direction of descent at each step.
+
+Choosing a small step would slow down convergence, while a large step might overshoot the minimum.
+With keras, we can use basic and adaptive gradient descent optimizers. We have mini batch gradient descent and Adam optimizer. Adam is considered best among the adaptive optimizers.
+
+```python
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+```
+
