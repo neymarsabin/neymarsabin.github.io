@@ -2,10 +2,10 @@
 layout = 'post'
 title = "A Long Rant on TypeScript"
 date = 2025-11-07 02:15:00.000000000+05:45
-draft = true
+draft = false
 +++
 
-This is going to be a long rant on TypeScript. I've been using typescript for a while now. Let's get on to the good and the bad parts of it. Typescript compiles to JavaScript, and it adds static typing to the language. This is a damage reduction technique to JavaScript's dynamic typing.
+This is going to be a long rant on TypeScript. I've been using typescript for a while now. Typescript compiles to JavaScript, and it adds static typing to the language. This is a damage reduction technique to JavaScript's dynamic typing.
 
 ## Why? What was the need to add types to TypeScript?
 - Better to catch errors at compile time rather than runtime, find something that is broken before it goes to production.
