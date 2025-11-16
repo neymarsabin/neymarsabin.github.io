@@ -1,6 +1,6 @@
 +++
 layout = 'post'
-title = "A Long Rant on TypeScript"
+title = "On TypeScript"
 date = 2025-11-07 02:15:00.000000000+05:45
 draft = false
 +++
