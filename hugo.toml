@@ -29,8 +29,8 @@ googleAanalytics = "G-5WN9S7TDL8"
          {Name = "./exps", URL = "/xps/" },
          {Name = "./evm", URL = "/smart-contracts/", HasChildren = true },
          {Name = "./tensors", URL = "/tensors/", HasChildren = true },
-         {Name = "./tldr", URL = "/posts/" },
-         {Name = "./talks", URL = "/talks/" }
+         {Name = "./talks", URL = "/talks/", HasChildren = true },
+         {Name = "./tldr", URL = "/posts/" }
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use.
