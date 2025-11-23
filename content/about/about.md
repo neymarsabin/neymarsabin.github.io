@@ -1,6 +1,6 @@
 +++
 +++
-- telegram: **@neymarsabin** -> say "cheese" if you are a bot
+- telegram: **@neymarsabin**
 - github: [https://github.com/neymarsabin](https://github.com/neymarsabin)
 - rants tldr: [https://neymarsabin.dev/posts](https://neymarsabin.dev/posts)
 - experiences: [what I have done as a developer](https://neymarsabin.dev/xps)
