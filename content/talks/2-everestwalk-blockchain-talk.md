@@ -17,4 +17,6 @@ The talk was structured to provide a comprehensive understanding of Blockchain T
 - Decentralized Applications (DApps)
 - ERC20 Token Demo
 
+{{< iframe "https://everestwalk.neymarsabin.dev/slide" "800" "600" >}}
+
 url: [https://everestwalk.neymarsabin.dev/slide](https://everestwalk.neymarsabin.dev/slide)
